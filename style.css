@@ -1,30 +1,36 @@
+/* Ustawia czcionkę całego dokumentu na sans-serif */
 body {
     font-family: sans-serif;
 }
 
+/* Styl dla kontenera flexbox */
 .flexbox-container {
-    padding: 3px;
-    border: 3px solid red;
-    height: 80vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: row wrap;
+    padding: 3px; /* Dodaje wewnętrzne odstępy wokół kontenera */
+    border: 3px solid red; /* Ustawia ramkę o grubości 3px i kolorze czerwonym */
+    height: 80vh; /* Ustawia wysokość kontenera na 80% wysokości okna przeglądarki */
+    display: flex; /* Używa flexbox do rozmieszczenia elementów wewnątrz */
+    align-items: center; /* Wyrównuje elementy w pionie na środku */
+    justify-content: center; /* Wyrównuje elementy w poziomie na środku */
+    flex-flow: row wrap; /* Ustawia kierunek elementów w wierszu i pozwala na zawijanie */
 }
 
+/* Styl dla elementów wewnątrz kontenera flexbox */
 .flexbox-container div {
-    margin: 3px;
-    border: 1px solid blue;
+    margin: 3px; /* Dodaje odstępy między elementami */
+    border: 1px solid blue; /* Ustawia ramkę o grubości 1px i kolorze niebieskim */
 }
 
+/* Ustawia szerokość dla elementu z klasą .art1 */
 .flexbox-container div.art1 {
-    flex-basis: 400px;
+    flex-basis: 400px; /* Ustawia podstawową szerokość na 400px */
 }
 
+/* Ustawia szerokość dla elementu z klasą .art2 */
 .flexbox-container div.art2 {
-    flex-basis: 400px;
+    flex-basis: 400px; /* Ustawia podstawową szerokość na 400px */
 }
 
+/* Ustawia szerokość dla elementu z klasą .art3 */
 .flexbox-container div.art3 {
-    flex-basis: 400px;
+    flex-basis: 400px; /* Ustawia podstawową szerokość na 400px */
 }
