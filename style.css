@@ -18,7 +18,7 @@ body {
 .flexbox-container div {
     margin: 3px; /* Dodaje odstępy między elementami */
     border: 1px solid blue;/* Ustawia ramkę o grubości 1px i kolorze niebieskim */
-    height: 60%;
+    flex-height: 50%;
 }
 
 /* Ustawia szerokość dla elementu z klasą .art1 */
