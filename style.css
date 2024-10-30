@@ -34,3 +34,8 @@ body {
 .flexbox-container div.art3 {
     flex-basis: 400px; /* Ustawia podstawową szerokość na 400px */
 }
+
+/* Ustawia szerokość dla elementu z klasą .art4 */
+.flexbox-container div.art4 {
+    flex-basis: 400px; /* Ustawia podstawową szerokość na 400px */
+}
