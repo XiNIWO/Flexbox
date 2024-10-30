@@ -7,7 +7,7 @@ body {
 .flexbox-container {
     padding: 3px; /* Dodaje wewnętrzne odstępy wokół kontenera */
     border: 3px solid red; /* Ustawia ramkę o grubości 3px i kolorze czerwonym */
-    height: 80%; /* Ustawia wysokość kontenera na 80% wysokości okna przeglądarki */
+    height: 80vh; /* Ustawia wysokość kontenera na 80% wysokości okna przeglądarki */
     display: flex; /* Używa flexbox do rozmieszczenia elementów wewnątrz */
     align-items: center; /* Wyrównuje elementy w pionie na środku */
     justify-content: center; /* Wyrównuje elementy w poziomie na środku */
@@ -17,7 +17,8 @@ body {
 /* Styl dla elementów wewnątrz kontenera flexbox */
 .flexbox-container div {
     margin: 3px; /* Dodaje odstępy między elementami */
-    border: 1px solid blue; /* Ustawia ramkę o grubości 1px i kolorze niebieskim */
+    border: 1px solid blue;/* Ustawia ramkę o grubości 1px i kolorze niebieskim */
+    height: 60%;
 }
 
 /* Ustawia szerokość dla elementu z klasą .art1 */
